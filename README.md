@@ -1,72 +1,69 @@
-# Networkwalks — Week 4: Mediroza General Hospital
+Mediroza General Hospital – Penetration Testing Project
 
-**Batch:** B083  
-**Project type:** Black-box penetration testing and vulnerability assessment  
-**Scenario duration:** 5 days  
-**Target stated in the training brief:** `https://medirozahospital.com`  
-**Prepared by:** Arsalan Yousuf Dar
+Networkwalks | Batch B084 | Week 4
 
-> **Status:** Portfolio structure and project documentation prepared from the Networkwalks Week 4 brief. Technical testing results have not yet been entered. Do not describe any vulnerability as confirmed until it has been reproduced and documented with evidence.
+A practical Black-Box Penetration Testing and Vulnerability Assessment project conducted as part of my cybersecurity training.
 
-## Overview
+Project Overview
 
-This repository documents the authorised educational penetration-testing exercise described in the Networkwalks Week 4 brief. The exercise is organised around four milestones:
+This project focuses on assessing the security of the Mediroza General Hospital training environment through a structured five-day penetration-testing exercise.
 
-1. **M1 — Initial Access:** reconnaissance, exposed entry points, authentication and input-handling review, and evidence of access to the three designated test PDF reports.
-2. **M2 — Data Extraction:** analyse the protection applied to the three designated files and document successful recovery of their contents where authorised.
-3. **M3 — Critical Data Exposure:** inspect permitted file properties and server-side exposure indicators; document the assigned salary and shareholder-data exposure without publishing personal or confidential records.
-4. **M4 — Penetration Test Report:** prepare an executive summary, scope and methodology, evidence-backed findings, risk ratings, and remediation recommendations.
+Assessment Type: Black-box Penetration Testing
+Duration: 5 Days
+Training Programme: Networkwalks
 
-## Scope and rules
+Project Milestones
 
-The supplied brief specifies:
-- Testing is limited to the named target domain and agreed scope.
-- No social engineering.
-- No denial-of-service testing.
-- No testing outside the agreed scope.
-- Written authorisation is stated in the training brief.
+M1 – Initial Access
 
-Only perform testing while the authorisation remains valid and only against the exact assets and activities approved by the programme. Stop if scope or authorisation is unclear.
+- Reconnaissance and attack-surface review
+- Identification of exposed entry points
+- Authentication and input-handling assessment
+- Evidence documentation
 
-## Repository structure
+M2 – Data Extraction
 
-```text
-.
-├── README.md
-├── .gitignore
-├── docs/
-│   ├── project-scope.md
-│   ├── methodology.md
-│   ├── findings-register.md
-│   └── final-report-template.md
-├── evidence/
-│   ├── M1-initial-access/
-│   ├── M2-data-extraction/
-│   ├── M3-data-exposure/
-│   └── M4-report/
-└── notes/
-    └── activity-log.md
-```
+- PDF protection and encryption analysis
+- Assessment of document security
+- Documentation of authorised recovery results
 
-## Evidence handling
+M3 – Critical Data Exposure
 
-- Add only screenshots and notes that you are permitted to share.
-- Redact names, patient identifiers, medical details, credentials, tokens, session cookies, and other sensitive data.
-- Do not commit the three patient PDFs, recovered confidential contents, employee salary records, shareholder personal details, password lists, or secrets.
-- Keep original sensitive evidence in an approved private location; publish only redacted proof and a high-level summary.
-- Record the date, test step, expected result, observed result, and evidence filename for each activity.
+- File property and metadata analysis
+- Investigation of potential server-side exposure
+- Assessment of information disclosure risks
 
-## Current completion status
+M4 – Professional Reporting
 
-| Milestone | Status |
-|---|---|
-| M1 — Initial Access | Pending evidence |
-| M2 — Data Extraction | Pending evidence |
-| M3 — Critical Data Exposure | Pending evidence |
-| M4 — Final Report | Template prepared; findings pending |
+- Executive summary
+- Scope and methodology
+- Findings and evidence
+- Risk ratings
+- Remediation recommendations
 
-Update this table only after completing each milestone and retaining verifiable evidence.
+Repository Structure
 
-## Disclaimer
+- "docs/" – Project scope, methodology, findings register and report template.
+- "evidence/" – Separate evidence directories for all four milestones.
+- "notes/" – Project activity log.
 
-This repository is an educational portfolio record. It does not provide permission to test any system. Never apply these techniques to systems without explicit written authorisation from the owner.
+Learning Objectives
+
+- Understand black-box penetration-testing methodology.
+- Develop web application security assessment skills.
+- Learn to document security observations.
+- Understand information disclosure risks.
+- Prepare professional vulnerability assessment reports.
+
+Project Status
+
+The repository structure and documentation templates have been prepared. Practical findings and supporting evidence will be added as the assessment progresses.
+
+Author
+
+Arsalan Yousuf Dar
+GitHub: "Arsalaan-01" (https://github.com/Arsalaan-01)
+
+---
+
+Disclaimer: This repository documents an educational cybersecurity exercise. Testing must only be conducted with explicit authorisation and within the agreed scope. Confidential patient, employee and shareholder information must never be published.
